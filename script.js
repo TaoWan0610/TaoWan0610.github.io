@@ -85,9 +85,15 @@ function renderSite() {
 
   document.getElementById("papers-list").innerHTML = data.publications.map(paper => `
     <article class="paper card">
-      <div class="paper-thumb">
-        <img src="${escapeHtml(paper.image)}" alt="${escapeHtml(paper.imageAlt || paper.title)}"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+      <div class="paper-thumb ${paper.imageType === "pdf" ? "paper-thumb-pdf" : ""}">
+        ${paper.imageType === "pdf" ? `
+          <object class="paper-pdf"
+            data="${escapeHtml(paper.image)}#toolbar=0&navpanes=0&scrollbar=0&view=FitH"
+            type="application/pdf"
+            aria-label="${escapeHtml(paper.imageAlt || paper.title)}">
+          </object>` : `
+          <img src="${escapeHtml(paper.image)}" alt="${escapeHtml(paper.imageAlt || paper.title)}"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />`}
         <div class="paper-fallback">
           <span>${escapeHtml(paper.fallbackTitle || "Paper")}</span>
           <small>${escapeHtml(paper.fallbackSubtitle || "")}</small>
