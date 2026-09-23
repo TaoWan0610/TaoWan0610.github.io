@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="28" fill="url(#bg)"/>
+  <text x="54" y="78" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#f8fafc">LiFR v2</text>
+  <text x="54" y="114" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#cbd5e1">High-Rate Dense Prediction with RGB + Events</text>
+
+  <rect x="54" y="168" width="145" height="84" rx="16" fill="#1d4ed8"/>
+  <text x="126.5" y="201" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#fff">RGB</text>
+  <text x="126.5" y="228" text-anchor="middle" font-family="Arial" font-size="14" fill="#dbeafe">keyframe</text>
+
+  <rect x="54" y="286" width="145" height="84" rx="16" fill="#be123c"/>
+  <text x="126.5" y="319" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#fff">EVENTS</text>
+  <text x="126.5" y="346" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffe4e6">high-rate stream</text>
+
+  <path d="M215 210 H310" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M215 328 H310" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="310" y="178" width="150" height="170" rx="18" fill="#0f766e"/>
+  <text x="385" y="228" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">Propagation</text>
+  <text x="385" y="258" text-anchor="middle" font-family="Arial" font-size="14" fill="#ccfbf1">event-guided</text>
+  <text x="385" y="280" text-anchor="middle" font-family="Arial" font-size="14" fill="#ccfbf1">feature warp</text>
+
+  <path d="M460 263 H525" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="525" y="178" width="150" height="170" rx="18" fill="#7c3aed"/>
+  <text x="600" y="228" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">Completion</text>
+  <text x="600" y="258" text-anchor="middle" font-family="Arial" font-size="14" fill="#ede9fe">EGCM</text>
+  <text x="600" y="280" text-anchor="middle" font-family="Arial" font-size="14" fill="#ede9fe">newly visible content</text>
+
+  <path d="M675 263 H740" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="740" y="178" width="166" height="170" rx="18" fill="#b45309"/>
+  <text x="823" y="228" text-anchor="middle" font-family="Arial" font-size="19" font-weight="700" fill="#fff">Memory</text>
+  <text x="823" y="258" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffedd5">HRM</text>
+  <text x="823" y="280" text-anchor="middle" font-family="Arial" font-size="14" fill="#ffedd5">streaming history</text>
+
+  <rect x="310" y="404" width="596" height="72" rx="18" fill="#111827" stroke="url(#accent)" stroke-width="3"/>
+  <text x="608" y="434" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#f8fafc">Semantic Segmentation · Monocular Depth · Multi-Task Prediction</text>
+  <text x="608" y="458" text-anchor="middle" font-family="Arial" font-size="14" fill="#cbd5e1">Causal anytime and streaming inference beyond RGB frame rates</text>
+</svg>
