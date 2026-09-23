@@ -54,6 +54,26 @@ window.siteData = {
 
   publications: [
     {
+      title: "LiFR v2: Completion-Augmented Event Propagation for High-Rate Dense Prediction",
+      authors: "**Tao Wan***, **Xiaoshan Wu***, Yifei Yu, Bo Wang, Xiaoyang Lyu, Muxin Liu, Aoxuan Pan, Zhongrui Wang, Xiaojuan Qi (* co-first authors)",
+      venue: "arXiv, 2026",
+      image: "assets/img/lifr-v2.jpg",
+      imageAlt: "LiFR v2: high-rate dense prediction with RGB and events",
+      fallbackTitle: "LiFR v2",
+      fallbackSubtitle: "High-Rate Dense Prediction",
+      description: "A propagation-completion-memory framework for causal anytime and streaming dense prediction from a single RGB keyframe and event observations, supporting semantic segmentation, monocular depth estimation, and multi-task prediction.",
+      links: [
+        {
+          label: "Paper",
+          url: "https://arxiv.org/abs/2609.25803"
+        },
+        {
+          label: "Code",
+          url: "https://github.com/TaoWan0610/LiFR-v2"
+        }
+      ]
+    },
+    {
       title: "Topology optimization of random memristors for input-aware dynamic SNN",
       authors: "Bo Wang, Xinyuan Zhang, Shaocong Wang, Ning Lin, Yi Li, Yifei Yu, Yue Zhang, Jichang Yang, Xiaoshan Wu, Yangu He, Songqi Wang, **Tao Wan**, Rui Chen, Guoqi Li, Yue Deng, Xiaojuan Qi, Zhongrui Wang, Dashan Shang",
       venue: "Science Advances, 2025",
